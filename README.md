@@ -8,7 +8,7 @@ Directory Explorer and Photo Mover v2 are two Python scripts designed to help yo
     Directory Explorer: A minimalistic script for viewing files in a clean, text-based format and sorting them by size.
     Photo Mover v2: An automation script that organizes image files by moving them from common directories (e.g., Desktop, Documents, Downloads) to the default Pictures folder at every startup, while keeping a log of each action.
 
-    "Life is short, have fun while able to do so!"
+    "Life is short, have fun while u can!"
     — Made by GladysPotatoGarden (Quincy)
 
 Directory Explorer
