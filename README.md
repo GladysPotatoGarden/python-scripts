@@ -1,44 +1,56 @@
-# python-scripts
- 
+📂 Directory Explorer & 📸 Photo Mover v2
+Organize and Manage Files Automatically with Simple, Efficient Scripts
 
-Directory Explorer and Photo Mover v2 Scripts
 Overview
 
-This repository contains two Python scripts:
+Directory Explorer and Photo Mover v2 are two Python scripts designed to help you manage your files quickly and automatically:
 
-    File Viewer: A lightweight tool for viewing and organizing files in a text-based format.
-    Photo Mover v2: An automated script that organizes image files by moving them to the default Pictures directory and logs actions for easy tracking.
-
-Directory Explorer
-Description
-
-The Directory Explorer script allows users to view files in a clean and organized display without a graphical user interface. You simply specify the directory path at the top of the script, and it will display all files in that directory in an ordered, readable format.
-Features
-
-    Simple Text-Based Display: View files in an uncluttered, text-based format.
-    Sort by File Size: Files are automatically sorted by size for better organization.
+    Directory Explorer: A minimalistic script for viewing files in a clean, text-based format and sorting them by size.
+    Photo Mover v2: An automation script that organizes image files by moving them from common directories (e.g., Desktop, Documents, Downloads) to the default Pictures folder at every startup, while keeping a log of each action.
 
     "Life is short, have fun while able to do so!"
     — Made by GladysPotatoGarden (Quincy)
 
+Directory Explorer
+Features
+
+    Text-Based Display: View files in a straightforward, organized display within your terminal, removing the need for a complex user interface.
+    Sorting by File Size: Sorts files by size for easy comparison and navigation.
+
+Usage
+
+    Configure Directory Path: Add the desired directory path to the variable at the top of the script.
+    Run the Script: Execute the script to view files and their sizes in a simple, organized output.
+
 Photo Mover v2
-Description
+Features
 
-The Photo Mover v2 script is an automated tool designed to keep your Pictures directory organized by regularly moving image files from commonly cluttered folders to Pictures. This script is designed to run at startup and operates seamlessly in the background.
-How It Works
-
-    Folder Scanning: Each time the script runs, it checks the Desktop, Documents, and Downloads folders.
-    Image Organization: All image files found are moved to the Pictures directory by default.
-    Automatic Logging: Creates a log file in the Documents/python-script-logs folder, tracking all processed files with timestamps for easy reference.
+    Automatic Image Organization: Scans Desktop, Documents, and Downloads folders at startup, moving all image files to the Pictures directory.
+    Auto-Generated Log: Creates a log file in a folder called python-script-logs within Documents, recording each file moved with timestamps for reference.
 
 Setup Instructions
 
-    Edit Directory Path: If necessary, adjust the directory paths within the script to suit your preferences.
-    Build with PyInstaller: To create an executable version, build the script using PyInstaller.
-    Add to Startup: Place the executable or a shortcut to it in your system’s startup folder to ensure it runs automatically at each boot.
+    Edit Directory Paths (Optional): You can adjust the folder paths in the script to customize which directories are scanned.
+    Build with PyInstaller: Create an executable with:
+
+    bash
+
+    python -m pip install pyinstaller
+    pyinstaller --onefile photo-mover-v2.py
+
+    Add to Startup: Place the executable (or a shortcut) in the system’s startup folder so it runs every time the computer boots.
+        On Windows, open the Startup folder by pressing Win + R and typing shell:startup. Place the shortcut to your executable here.
 
 Future Enhancements
 
-Documentation for the Photo Mover v2 will be expanded soon to cover additional configuration options.
+Documentation will soon include additional configuration options and usage examples.
+Contributing
 
-Enjoy the simplicity and functionality! 😊
+Feel free to contribute to the project by opening issues or submitting pull requests. Contributions for enhanced functionality or additional scripts are welcome!
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+Author
+
+GladysPotatoGarden (Quincy)
+Have questions or suggestions? Reach out via GitHub or submit an issue for further improvements!
