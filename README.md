@@ -23,3 +23,10 @@ made by GladysPotatoGarden(Quincy)
 
 
 * I'll add more documentation for the photo mover later
+
+* photo mover v2: script that can be easily configured to run on startup, it will check the
+* documents, desktop, and downloads folders and move image files to the default 'Pictures' directory.
+* I built it with pyinstaller and then added to my PC's startup folder, so it runs every time i turn my pc on.
+* this script will create a folder inside the 'documents' folder called 'python-script-logs' and it will
+* generate a log file that captures all files processed along with the timestamps.
+* enjoy! :)
