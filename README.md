@@ -14,6 +14,12 @@ to use this program, simply add your directory's path into the variable at the t
 uses:
 - viewing files in a clean and organized text-based display instead of a user interface
 - sorting files by size
-- life is short, have fun while able to do so :)
+
+
+life is short, have fun while able to do so :)
 
 made by GladysPotatoGarden(Quincy)
+
+
+
+* I'll add more documentation for the photo mover later
