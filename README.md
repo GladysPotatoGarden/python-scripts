@@ -50,7 +50,9 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-Author
+
+Author:
 
 GladysPotatoGarden (Quincy)
+
 Have questions or suggestions? Reach out via GitHub or submit an issue for further improvements!
